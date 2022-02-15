@@ -11,3 +11,208 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* HEADER STYLES */
+header {
+  background:url(../public/headerbg.png);
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerContent {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContent h1 {
+  font-size: 72px;
+  color: white;
+  margin: 0;
+}
+
+.headerContent h2 {
+  font-size: 42px;
+  color: white;
+  margin: 0;
+}
+
+.titleBlock {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+}
+
+nav li {
+  cursor: pointer;
+  font-size: 36px;
+  color: white;
+}
+
+/* FOOTER STYLES */
+
+footer {
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #10052F;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a{
+  margin: 0;
+}
+
+.footerContent a{
+  padding-right: 15px;
+}
+
+/* ABOUT STYLES */
+
+.aboutBody {
+  background-color: #05051C;
+  margin: 0;
+  height:70vh;
+  width: 100%;
+  position: absolute;
+}
+
+.aboutBodyContent {
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 15%;
+}
+
+.aboutBody h1 {
+  margin: 0;
+  color: white;
+}
+
+.aboutBody p {
+  color: white;
+  font-size: 24px;
+}
+
+/* Portfolio Styles */
+
+.portfolioBody {
+  background-color: #05051C;
+  margin: 0;
+  height:70vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+/* Card Styles */
+
+.card {
+  height: 500px;
+  width: 400px;
+  background-color: #10052F;
+  border-radius: 3px;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.cardimg {
+  width: 360px;
+  border-radius: 3px;
+  height: 157px;
+}
+
+.card h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.card p {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.buttonSection {
+  display: flex;
+  width: 85%;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.cardButton {
+  background-color: #240196;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Contact Styles */
+
+.contactBody {
+  background-color: #05051C;
+  color: white;
+  margin: 0;
+  height:70vh;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+/* Resume Styles */
+
+.resumeBody {
+  background-color: #05051C;
+  margin: 0;
+  height:70vh;
+  width: 100%;
+  position: absolute;
+}
+
+.resumeBodyContent {
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  top: 15%;
+  color: white;
+}
