@@ -14,7 +14,7 @@ code {
 
 /* HEADER STYLES */
 header {
-  background:url(../public/headerbg.png);
+  background:url(/headerbg.png);
   height: 250px;
   display: flex;
   justify-content: center;
